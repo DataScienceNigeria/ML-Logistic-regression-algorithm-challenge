@@ -23,9 +23,9 @@ The rules and guidelines for this challenge are as follows:
 
 6. The top 3 optimized code will be compensated as follows:
 
-- **1st position**: 20GB
-- **2nd position**: 15GB
-- **3rd position**: 10GB
+- **1st position**: 20GB data plan.
+- **2nd position**: 15GB data plan.
+- **3rd position**: 10GB data plan.
 
 7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
 
