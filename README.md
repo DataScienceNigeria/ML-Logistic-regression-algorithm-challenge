@@ -27,6 +27,7 @@ The rules and guidelines for this challenge are as follows:
 
 6. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
 
+---
 For more information reach out to the AI+campus/city managers
 
 Twitter: @elishatofunmi, @o_funminiyi, @DataScienceNIG
