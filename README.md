@@ -32,8 +32,7 @@ The rules and guidelines for this challenge are as follows:
 ---
 For issues on this challenge kindly reach out to the AI+campus/city managers
 
-**Twitter**: [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst), [@DataScienceNIG](https://twitter.com/DataScienceNIG)
-
+**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
 or
 
 **Call**: +2349062000119,+2349080564419.
