@@ -21,16 +21,16 @@ The rules and guidelines for this challenge are as follows:
 
 5. The top 3 optimized code will be compensated as follows:
 
-- 1st position: 20GB
-- 2nd position: 15GB
-- 3rd position:  10GB
+- **1st position**: 20GB
+- **2nd position**: 15GB
+- **3rd position**: 10GB
 
 6. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
 
 ---
 For more information reach out to the AI+campus/city managers
 
-Twitter: @elishatofunmi, @o_funminiyi, @DataScienceNIG
+**Twitter**: [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst), [@DataScienceNIG](https://twitter.com/DataScienceNIG)
 
 Call: +2349062000119,+2349080564419.
 
