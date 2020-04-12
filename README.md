@@ -17,15 +17,17 @@ The rules and guidelines for this challenge are as follows:
 
 3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
 
-4. To push your solution to us, make a pull request to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
+4. For python developers (numpy is advisable).
 
-5. The top 3 optimized code will be compensated as follows:
+5. To push your solution to us, make a pull request to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
+
+6. The top 3 optimized code will be compensated as follows:
 
 - **1st position**: 20GB
 - **2nd position**: 15GB
 - **3rd position**: 10GB
 
-6. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
+7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
 
 ---
 For more information reach out to the AI+campus/city managers
