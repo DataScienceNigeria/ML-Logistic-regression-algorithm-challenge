@@ -1,41 +1,17 @@
-# ML-Logistic-regression-algorithm-challenge
+# Logistic-Regression-from-Scratch
+Building a logistic regression from scratch
 
+Below is a description of all the cells in the code
 
-![DSN logo](DSN_logo.png)|DSN Algorithm Challenge|
-|---|---|
-
-A lot of data scientists or machine learning enthusiasts do use various machine learning algorithms as a black box without knowing how they work or the mathematics behind it. The purpose of this challenge is to encourage the mathematical understanding of machine learning algorithms, their break and yield point. 
-
-In summary, participants are encouraged to understand the fundamental concepts behind machine learning algorithms/models.
-
-
-The rules and guidelines for this challenge are as follows:
-
-1. Ensure to register at https://bit.ly/dsnmlhack 
-
-2. The algorithm challenge is open to all.
-
-3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
-
-4. For python developers (numpy is advisable).
-
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
-
-6. The top 3 optimized code will be compensated as follows:
-
-- **1st position**: 20GB data plan.
-- **2nd position**: 15GB data plan.
-- **3rd position**: 10GB data plan.
-
-7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
-
----
-For issues on this challenge kindly reach out to the AI+campus/city managers
-
-**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
-
-or
-
-**Call**: +2349062000119,+2349080564419.
-
-Good luck!
+1. Imports all the necessary code needed to build the model
+2. Define a sigmoid activation functioon
+3. Test the sigmoid function
+4. Define a function to initialize the weights and bias to zeros
+5. Test the weight initialization function
+6. Define a forward function to calculate the cost and weight,bias change factor using gradient descent equations
+7. test the forward function defined above
+8. Define a function to train the model given the number of epochs and learning rate of the algorithm#
+9.Test the training function
+10. defnine a function to classify item based on the trained weights from the algorithm above
+11. put all the functions together to create a robust logistic regression model
+12. after training you can plot the change in cost against the number of epochs to see how your model is training.
