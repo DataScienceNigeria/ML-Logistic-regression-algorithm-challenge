@@ -8,14 +8,15 @@ Pseudo Code
 
 4.	Train using Gradient descent  to minimize the loss function
 ![](images/loss_function.png)
-
-
     For loop
-        -	Calculate sum of product of feature matrix and weight, Z
-        -	Calculate hypothesis h by sigmoid(Z)
-        -	Calculate gradient
-        -	Update weight
 ![](images/gradient_descent.png)
+            -	Calculate sum of product of feature matrix and weight, Z
+            -	Calculate hypothesis h by sigmoid(Z)
+            -	Calculate gradient
+            -	Update weight
+
+    
+
 5.	Make predictions using trained weight
 
 NB: 
