@@ -22,4 +22,5 @@ Pseudo Code
 
 NB: 
 ** User can decide whether to use intercept or not by passing the `fit_intercept` argument when instantiating LogisticRegression
+
 ** User can choose preferred threshold by using the threshold argument in `.predict()` method
