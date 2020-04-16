@@ -1,9 +1,13 @@
 Pseudo Code
 1.	Instantiate Logistic regression with value of learning rate and number of iteration.
+
 2.	Define method to calculate  Sigmoid function
-![](images/sigmoid.jpg)
-3.	Define method to calculate loss function (Cost function)
 ![](images/loss_function.png)
+
+3.	Define method to calculate loss function (Cost function)
+
+![](images/sigmoid.jpg)
+
 4.	Train using Gradient descent  to minimize the loss function
         For loop
         -	Calculate sum of product of feature matrix and weight, Z
