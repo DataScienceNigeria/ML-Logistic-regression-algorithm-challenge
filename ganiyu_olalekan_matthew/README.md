@@ -9,7 +9,9 @@ Logistic regression is the appropriate regression analysis to conduct when the d
 
 ## Implemetation
 
-The Logistic Regression algorithm was implement with a jupyter notebook using python. 
+The Logistic Regression algorithm was implemented with python using jupyter notebook. 
 
 The iris dataset from sklearn.datasets.load_iris() was used to test the speed and accuracy of the algorithm. Unlike the default iris dataset, my implementation modified it to match the binary requirement of the logistic regression algorithm. Given that the algorithm (Logistic Algorithm) is a Binary Classification Algorithm.
+
+L2 Regularization (Euclidean Normal) was also implemented to optimize the algorithm, obtaining same accuracy in fewer iterations as it would have been for longer iterations.
 
