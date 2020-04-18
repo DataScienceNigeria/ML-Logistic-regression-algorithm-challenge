@@ -48,13 +48,3 @@ Log.fit(X_train, Y_train)
 # Making predictions
 X_test_norm = normalize(X_test)
 y_pred = Log.predict(X_test_norm, b0, b1)
-
-# The accuracy
-print("accuracy:", accuracy_score(Y_test, y_pred))
-# f1 score
-print("f1 score:", f1_score(Y_test, y_pred))
-
-
-
-
-
