@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
+
 class CustomLogisticRegression:
     """ Implements Logistic Regression with support for multiple classes
    
@@ -148,7 +149,7 @@ class CustomLogisticRegression:
             float -- Accuracy percentage 
         """
         y_pred = []
-        x = np.delete(self.x,0,1)
+        x = np.delete(self.x, 0, 1)
         for i in x:
             
             y_pred.append(self.predict(i))
