@@ -1,41 +1,43 @@
-# ML-Logistic-regression-algorithm-challenge
+Designing the logistic regression from scratch
 
+logistic regression is a technique that is used to explain the relationship between the input variables(independent) and the output variable(dependent), what differentiates it from the normal linear regression is that the dependent variables can take only a fixed set of values ( 0 and 1) these values correspond to the classes of a classfication problem.
 
-![DSN logo](DSN_logo.png)|DSN Algorithm Challenge|
-|---|---|
+In logistic regression our goal is to identify the relationship betweeen the independent variables and dependent and we do these by estimating the probabilities using a logistics function (it is a sigmoid curve that is used to build the function with various parameters)
 
-A lot of data scientists or machine learning enthusiasts do use various machine learning algorithms as a black box without knowing how they work or the mathematics behind it. The purpose of this challenge is to encourage the mathematical understanding of machine learning algorithms, their break and yield point. 
+Building the logistic model
 
-In summary, participants are encouraged to understand the fundamental concepts behind machine learning algorithms/models.
+focus:
+we building a model which take in features x1, x2, x3,x4,...,xn. and returns a binary output denoted by Y.
 
+statistics:
+let p be the probability of Y being 1 (i.e p = Prob(Y=1))
+the variables relationship can be denoted as
 
-The rules and guidelines for this challenge are as follows:
+ln(p/(1-p)) = b0 + b1x1 + b2x2 + b3x3 + b4x4 + bnxn
 
-1. Ensure to register at https://bit.ly/dsnmlhack 
+where
+p/(1-p) denotes the likelihood of the event taking place.
 
-2. The algorithm challenge is open to all.
+ln(p/(1-p)) is the log of the likelihood of the event taking place and is used to represent the probability that lies between 0 and 1.
 
-3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
+while terms b0, b1, b2, b3, b4,...,bn are the parameters that we are trying to estimate during training.
 
-4. For python developers (numpy is advisable).
+note: our dear interests is in getting the value of probability p in the above equation.
 
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
+Solution:
+1>> remove the log term on the LHS of the equation by raising the RHS as a power of e (exponential)
+p/(1-p) = e^b0 + b1x1 + b2x2 + b3x3 + b4x4 +...+ bnxn
 
-6. The top 3 optimized code will be compensated as follows:
+2>> simplify by cross multiplying to obtain the value of p
+p = e^b0 + b1x1 + b2x2 + b3x3 + b4x4 +...+ bnxn / (1 +e^b0 + b1x1 + b2x2 + b3x3 + b4x4 +...+ bnxn)
 
-- **1st position**: 20GB data plan.
-- **2nd position**: 15GB data plan.
-- **3rd position**: 10GB data plan.
+this equation above can also known as the equation of the sigmoid function talked about earlier and we shall be using the above derived equation to make our predictions...
 
-7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
+Implementation
+L2 loss function was implemented to calculate the error and the Gradient Descent Algorithm was used to estimate the paramaters.
 
----
-For issues on this challenge kindly reach out to the AI+campus/city managers
+we shall be looking at the relationship between the Age of some patients and their Diabetes status to test the tested created.
 
-**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
-
-or
-
-**Call**: +2349062000119,+2349080564419.
-
-Good luck!
+Source of dataset
+Microsoft: DAT263x Introduction to Artificial Intelligence (AI) Lab files
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1VlglKoqggJKRM6EJP_opFRF3bW41iTBP' -O data.csv
