@@ -4,38 +4,18 @@
 ![DSN logo](DSN_logo.png)|DSN Algorithm Challenge|
 |---|---|
 
-A lot of data scientists or machine learning enthusiasts do use various machine learning algorithms as a black box without knowing how they work or the mathematics behind it. The purpose of this challenge is to encourage the mathematical understanding of machine learning algorithms, their break and yield point. 
+I used the Numpy Library to create the Logistic Regression from scratch
+I also tested the algorithm and compared it with the Logistic Regression algorithm provided by scikit learn
+The matplotlib library is for visualization.
 
-In summary, participants are encouraged to understand the fundamental concepts behind machine learning algorithms/models.
 
+# My Method
+I created a class Logistic Regression and it has four (4) argument
+argument 1 :  lr short for learning_rate which will determine how my algorithm will move not interms of direction but in weights learned during training a model
+argument 2: num_iter short for Number of Iterations this is the number of times the algorithm will go over the data in order to learn the weights and if it is too high it takes time to finish training and it may lead to overfitting and too low will lead to underfitting
+argument 3: fit_intercept this is based on the assumtion that the data has linear relationship among them (features and target) hence it uses the intercept learned to predict probability
+argument 4: verbose which is to output the training steps
 
-The rules and guidelines for this challenge are as follows:
+Logistic Regression is to model the probability of a certain class or event existing such as win or loss
 
-1. Ensure to register at https://bit.ly/dsnmlhack 
-
-2. The algorithm challenge is open to all.
-
-3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
-
-4. For python developers (numpy is advisable).
-
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
-
-6. The top 3 optimized code will be compensated as follows:
-
-- **1st position**: 20GB data plan.
-- **2nd position**: 15GB data plan.
-- **3rd position**: 10GB data plan.
-
-7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
-
----
-For issues on this challenge kindly reach out to the AI+campus/city managers
-
-**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
-
-or
-
-**Call**: +2349062000119,+2349080564419.
-
-Good luck!
+The sigmoid function therefore allows this to be possible because the sigmoid function maps any real value into another value between 0 and 1.
