@@ -1,41 +1,44 @@
 # ML-Logistic-regression-algorithm-challenge
+ML-Logistic-regression-algorithm-challenge
+## Logistic Regression
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable.The possible outcomes of a logistic regression are not numerical but
+rather categorical ( 1 or 0, Yes or No ) etc.
+
+Even though a Logistic regression is seen as a generalized linear model, It is a linear model with a link function that maps the output of linear multiple regression to a posterior probability of each class (0,1) using the **logistic
+sigmoid function.**
+
+## The Logistic Regression Formla
 
 
-![DSN logo](DSN_logo.png)|DSN Algorithm Challenge|
-|---|---|
+## $p(X)/1 −p (X)    = e ( β 0 +β 1 X 1 +...+β k X k )$
 
-A lot of data scientists or machine learning enthusiasts do use various machine learning algorithms as a black box without knowing how they work or the mathematics behind it. The purpose of this challenge is to encourage the mathematical understanding of machine learning algorithms, their break and yield point. 
+Where,
 
-In summary, participants are encouraged to understand the fundamental concepts behind machine learning algorithms/models.
+$p(X)$ = Probability of the dsitribution
 
+$e$ = Base of the Natural Log
 
-The rules and guidelines for this challenge are as follows:
+$β0$  = Biase or Intercept
 
-1. Ensure to register at https://bit.ly/dsnmlhack 
+$β1$  = Coefficient
 
-2. The algorithm challenge is open to all.
+$X1$ = Independenet variable
 
-3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
+## **ODDS** = $p (X)/1 −p (X)$
 
-4. For python developers (numpy is advisable).
+The logistic regression model is not very useful in itself. The right-hand side of the model is an exponent which is very computationally inefficient and generally hard to grasp.
 
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
+When we talk about a *logistic regression* what we usually mean is **logit regression** – which is a variation of the model where we have taken the log of both sides. See formula below:
 
-6. The top 3 optimized code will be compensated as follows:
+## $log(p(X)/1 −p(X)) = log(e(β 0 + β 1 x + ⋯ β k x k))$
 
-- **1st position**: 20GB data plan.
-- **2nd position**: 15GB data plan.
-- **3rd position**: 10GB data plan.
+On the right hand side, log cancels 'e(exponential)' function leavig us with our new formula:
 
-7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
+## $log(p(X)/1 −p(X)) = β 0 + β 1 x + ⋯ β k x k$
 
----
-For issues on this challenge kindly reach out to the AI+campus/city managers
+With odds:
 
-**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
+## $log (odds) = β 0 + β 1 x + ⋯ β k x k$
 
-or
+We'll implemt all these in the code section of the project.
 
-**Call**: +2349062000119,+2349080564419.
-
-Good luck!
