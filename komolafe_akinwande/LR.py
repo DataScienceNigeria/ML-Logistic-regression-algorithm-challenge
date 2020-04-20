@@ -104,12 +104,11 @@ class LogisticRegression:
             n_features is the number of features.
         targets : array-like of shape (n_samples,)
             Target vector relative to X.
-        weight: The updated weight
-        bias: The updated bias
+        default threshold = 0.5
        
         Returns
         -------
-        Predictions in form of probabilities"""
+        Predictions """
         self._predictions = np.array([1 if values >= threshold else 0 for values in self.predict_probab(features)])
     
     def accuracy(self,targets):
