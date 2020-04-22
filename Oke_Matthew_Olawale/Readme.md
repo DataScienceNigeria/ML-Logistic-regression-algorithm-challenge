@@ -2,7 +2,7 @@ This is a logistic regression algorithm built from scratch with the use of the n
 
 Logistic regression most times only have the capability for binary classification but this particular can also solve for multiclass classification using the OVR(One VS Rest Method.)
 
-SUMMARY OF THE LOGISTIC REGRESSION ALGORITHM
+THE LOGISTIC REGRESSION ALGORITHM
 - Initialize weights with its column as the number of features present in dataset
 
 - Find the dot product of the weight and the data added with a particular bias which gives us our linear model.
