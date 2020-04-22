@@ -1,41 +1,9 @@
 # ML-Logistic-regression-algorithm-challenge
 
+In this notebook I will try to implement a Logistic Regression without relying to Python's easy-to-use scikit-learn library. This notebook aims to create a Logistic Regression without the help of in-built Logistic Regression libraries to help us fully understand how Logistic Regression works in the background.
 
-![DSN logo](DSN_logo.png)|DSN Algorithm Challenge|
-|---|---|
+Before we start coding let us first understand or atleast try to understand the things happening at the back-end of Logistic Regression. Logistic regression is a classiication algorithm, it is maybe sometimes be confusing that the term regression appears in this name even though logistic regression is actually a classiication algorithm. But that's just a name for historical reasons.So let's not get confused, logistic regression is actually a classiication algorithm that we apply to settings where the label y is a discrete value, when it's either zero or one
 
-A lot of data scientists or machine learning enthusiasts do use various machine learning algorithms as a black box without knowing how they work or the mathematics behind it. The purpose of this challenge is to encourage the mathematical understanding of machine learning algorithms, their break and yield point. 
+A Logistic regression takes input and returns an output of probability, a value between 0 and 1. How does a Logistic Regression do that? With the help of a function called a logistic function or most commonly known as a sigmoid. The terms sigmoid function and logistic function are basically synonyms and mean the same thing. So the two terms are basically interchangable, and either term can be used to refer to this function. 
 
-In summary, participants are encouraged to understand the fundamental concepts behind machine learning algorithms/models.
-
-
-The rules and guidelines for this challenge are as follows:
-
-1. Ensure to register at https://bit.ly/dsnmlhack 
-
-2. The algorithm challenge is open to all.
-
-3. Participants are expected to design and develop the Logistic Regression algorithm from scratch using Python or R programming.
-
-4. For python developers (numpy is advisable).
-
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at  https://www.github.com/datasciencenigeria/ML-Logistic-regression-algorithm-challenge. Ensure to add your readme file to understand your code.
-
-6. The top 3 optimized code will be compensated as follows:
-
-- **1st position**: 20GB data plan.
-- **2nd position**: 15GB data plan.
-- **3rd position**: 10GB data plan.
-
-7. Add your scripts and readme.MD file as a folder saved as your full name (surname_first_middle name) by making a pull request to the repository.
-
----
-For issues on this challenge kindly reach out to the AI+campus/city managers
-
-**Twitter**: [@DataScienceNIG](https://twitter.com/DataScienceNIG), [@elishatofunmi](https://twitter.com/Elishatofunmi), [@o_funminiyi](https://twitter.com/o_funminiyi), [@gbganalyst](https://twitter.com/gbganalyst) 
-
-or
-
-**Call**: +2349062000119,+2349080564419.
-
-Good luck!
+The sigmoid function also called the logistic function gives an ‘S’ shaped curve that can take any real-valued number and map it into a value between 0 and 1. If the curve goes to positive infinity, y predicted will become 1, and if the curve goes to negative infinity, y predicted will become 0. If the output of the sigmoid function is more than 0.5, we can classify the outcome as 1 or YES, and if it is less than 0.5, we can classify it like 0 or NO.
