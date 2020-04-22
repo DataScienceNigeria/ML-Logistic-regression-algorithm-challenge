@@ -20,6 +20,8 @@ SUMMARY OF THE LOGISTIC REGRESSION ALGORITHM
 
 - This goes for a couple of iterations defaultly set "n_iters = 1000". This procees is called the gradient descent algorithm.
 
+
+
 Multiclass Classification
 - This is done by making binary classification on one of the classes against other classes repeatedly for each class.
 
@@ -32,10 +34,10 @@ Multiclass Classification
 
 
 For implementation:
-model = LogisticRegression()   #This is implements for binary classification and automatically sets the multi parameter to False.
+model = LogisticRegression()    #This is implements for binary classification and automatically sets the multi parameter to False.
 model.fit(X,y)
 model.predict(X)
 model.accuracy(y, y_predict)
 
 ------------------------------------------------------------------------------------------------------------------
-model = LogisticRegression(multi=True)         #This is used for multiclass classification and "multi" is needed to be set "True".
+model = LogisticRegression(multi=True)           #This is used for multiclass classification and "multi" is needed to be set "True".
