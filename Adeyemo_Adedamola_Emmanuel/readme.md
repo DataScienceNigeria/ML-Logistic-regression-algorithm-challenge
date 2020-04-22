@@ -1,0 +1,1 @@
+This folder contains the python notebook for building logistic regression from scratch in python. I used the titanic train dataset for this pourpose 
