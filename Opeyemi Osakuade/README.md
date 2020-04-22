@@ -15,9 +15,7 @@ Taking the log, log odds for the model turns out to be the equation of the *Sigm
 Since the logistic regression function(sigmoid) is *non linear*, to get a *convex function*, i.e a bowl-shaped function that eases the gradient descent function's work to converge to the optimal minimum point,a logistic regression cost function is derived
 
 ### Gradient descent
-To choose the values of weights that corresponds to a convex function and fits the data well(so we reach a global minimum), ensure that 
-
-the prediction(h) is at least close to the actual *y*, minimize the cost function using gradient descent.
+To choose the values of weights that corresponds to a convex function and fits the data well(so we reach a global minimum), ensure that the prediction(h) is at least close to the actual *y*, minimize the cost function using gradient descent.
 
 Repeat until convergence, updating all weights.
 
