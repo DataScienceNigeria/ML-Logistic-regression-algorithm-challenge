@@ -38,4 +38,4 @@ model.predict(X)
 model.accuracy(y, y_predict)
 
 ------------------------------------------------------------------------------------------------------------------
-model = LogisticRegression(multi=True)   #This is used for multiclass classification and "multi" is needed to be set "True".
+model = LogisticRegression(multi=True)         #This is used for multiclass classification and "multi" is needed to be set "True".
