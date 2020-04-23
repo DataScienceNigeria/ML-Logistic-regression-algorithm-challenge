@@ -17,7 +17,7 @@ class LogisticRegression:
         z = np.dot(X_test, weights)
         return 1/(1+np.exp(-z))
 
-    def fit(self, X_train, Y_train, max_iter, learning_rate):
+    def fit(self, X_train, Y_train, max_iter, learning_rate, simple=False):
         """
         :param X_train:  Training features
         :param Y_train:  Y value or class of the training features
@@ -25,6 +25,7 @@ class LogisticRegression:
         :param learning_rate: Learning rate
         :return: returns an array of weights for each features
         """
+
         for iter_i in range(max_iter):
             x_train = X_train
             #include intercept in the X_train features
