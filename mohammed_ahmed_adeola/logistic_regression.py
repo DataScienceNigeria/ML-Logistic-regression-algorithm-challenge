@@ -2,7 +2,7 @@ import numpy as np
 
 class LogisticRegression:
     
-    def __init__(self, lr=0.001, n_iterations=1000):
+    def __init__(self, lr=0.1, n_iterations=1000):
         self.lr = lr
         self.n_iterations = n_iterations
         self.weights = None
@@ -10,6 +10,7 @@ class LogisticRegression:
     
     def fit(self, X , y):
         #init parameters
+        n_features = X.shape[0]
         n_samples = X.shape[1]
         self.weights = np.zeros(n_samples)
         self.bias = 0
@@ -22,8 +23,8 @@ class LogisticRegression:
             dw = (1 / n_samples) * np.dot(X.T, (y_predicted - y))
             db = (1 / n_samples) * np.sum(y_predicted - y)
             
-            self.weights = self.lr * dw
-            self.bias = self.lr * db
+            self.weights -= self.lr * dw
+            self.bias -= self.lr * db
             
     def predict(self, X):
         linear_model = np.dot(X, self.weights) + self.bias
