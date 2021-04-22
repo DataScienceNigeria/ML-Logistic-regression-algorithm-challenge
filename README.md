@@ -1,4 +1,4 @@
-# olawale_abdulrasheed_olamide
+# olawale
 consider a dataset with multiple feature these features are related, this relation wed refer to as weight , 
 the relation between these features lets us determine its outcome(in this case ,classifying).
 logistic regression is a widely used algorithm for classification.
